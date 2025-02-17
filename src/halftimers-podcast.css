@@ -1,0 +1,61 @@
+.podcast-background{
+    background-image: url(https://th.bing.com/th/id/R.7e2468fe7c379572dc5d2cadf9dbd20b?rik=k%2bCqGWrVpFqTSA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fGrey-Wallpaper-free-download.jpg&ehk=BNKftuuQXmrRuPgQ7tHN9yXEEJM52W6jIRXxbxatUDU%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    width: 1190px;
+    height: 250px;
+    margin-left: 63px;   
+}
+
+.podcast-title{
+    color: white;
+    font-size: 40px;
+    width: 250px;
+    text-align: center;
+    border-bottom: 5px solid orangered;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin-left: 100px;
+    padding-top: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.podcast-section{
+    width: 1000px;
+    margin-top: -45px;
+    background-color: whitesmoke;
+    color: rgb(28, 28, 28);
+    margin-left: 150px;
+}
+.podcast-main{
+    padding: 50px 0px 50px 40px;
+}
+
+.podcast-main-card{
+    display: grid;
+    grid-template-columns: 4fr 8fr;
+}
+
+.podcast-card-title{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 55px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+
+.podcast-subcard{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
+    padding-top: 35px;
+}
+
+.subcard-title{
+    font-size: 28px;
+    font-weight: bold;
+    font-style: italic;
+    color: orangered;
+    padding-top: 5px;
+}

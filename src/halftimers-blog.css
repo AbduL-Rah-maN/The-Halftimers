@@ -1,0 +1,51 @@
+body{
+    color: black;
+    background-color: whitesmoke;
+    position: absolute;
+}
+.blog-background{
+    background-image: url(https://th.bing.com/th/id/R.7e2468fe7c379572dc5d2cadf9dbd20b?rik=k%2bCqGWrVpFqTSA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fGrey-Wallpaper-free-download.jpg&ehk=BNKftuuQXmrRuPgQ7tHN9yXEEJM52W6jIRXxbxatUDU%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    width: 1190px;
+    height: 250px;
+    margin-left: 63px;   
+}
+
+.blogs-allPost{
+    width: 980px;
+    margin-top: -45px;
+    background-color: whitesmoke;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+
+.title-blog{
+    color: white;
+    font-size: 40px;
+    width: 140px;
+    text-align: center;
+    border-bottom: 5px solid orangered;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 40px;
+    margin-left: 100px;
+    padding-top: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.blog-navs{
+    padding-top: 60px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(42, 42, 42);
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+.blog-navs span{
+    padding-right: 35px;
+}
+.blog-navs span:hover{
+    color: rgb(211, 56, 0);
+    cursor: pointer;
+}

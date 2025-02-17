@@ -1,0 +1,88 @@
+.hosts-background{
+    background-image: url(https://th.bing.com/th/id/R.7e2468fe7c379572dc5d2cadf9dbd20b?rik=k%2bCqGWrVpFqTSA&riu=http%3a%2f%2fwww.pixelstalk.net%2fwp-content%2fuploads%2f2016%2f04%2fGrey-Wallpaper-free-download.jpg&ehk=BNKftuuQXmrRuPgQ7tHN9yXEEJM52W6jIRXxbxatUDU%3d&risl=&pid=ImgRaw&r=0);
+    background-size: cover;
+    width: 1190px;
+    height: 250px;
+    margin-left: 63px;   
+}
+
+.title-hosts{
+    color: white;
+    border-bottom: 5px solid orangered;
+    border-bottom-right-radius: 40px;
+    border-bottom-left-radius: 10px;
+    border-style: double;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 40px;
+    width: 200px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 60px;
+    margin-left: 100px;
+}
+.thehosts-section{
+    width: 1000px;
+    margin-top: -45px;
+    background-color: whitesmoke;
+    color: rgb(28, 28, 28);
+    margin-left: 150px;
+}
+.para{
+    padding: 50px 0px 50px 40px;
+}
+.arrows{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    align-items: center;
+    padding: 20px 0px 30px 0px;
+    font-size: 30px;
+    color: orangered;
+}
+
+.names{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    padding: 0px 0px 30px 0px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.names-intro{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@keyframes arrow-up{
+    from 0%{
+        margin-top: 10px;
+    }to{
+        margin-top: -10px;
+    }
+}
+
+@keyframes arrow-down{
+    from 0%{
+        margin-top: -10px;
+    }to {
+        margin-top: 10px;
+    }
+}
+
+.bi-arrow-up{
+    animation-name: arrow-up;
+    animation-duration: 900ms;
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+}
+
+.bi-arrow-down{
+    animation-name: arrow-down;
+    animation-duration: 900ms;
+    animation-timing-function:linear;   
+    animation-iteration-count: infinite;
+}
